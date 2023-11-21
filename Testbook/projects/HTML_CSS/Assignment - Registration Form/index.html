@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment - Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Registration Form</h1>
+        <p> Enter your details below</P>
+      <form method="post">
+           <label for="fname">First Name:</label>
+           <input type="text" placeholder="First Name" ><br><br>
+
+           <label for="fname">Last Name:</label>
+           <input type="text" placeholder="Last Name" ><br><br>
+
+           <label for="Phone Number">Phone Number:</label>
+           <input type="number" placeholder="Phone Number" ><br><br>
+           
+           <label for="Email">Email:</label>
+           <input type="email" placeholder="xyz@gmail.com" ><br><br>
+
+           <hr>
+            <div class="DOB">
+                <label for="DOB">Enter your DOB:</label>
+                <input type="date">
+            </div>
+           <hr>
+           <div class="DOB">
+            <input type="radio" name="Profession">
+            <label for="Student">Student</label>
+ 
+            <input type="radio" name="Profession">
+            <label for="Student">Teacher</label>
+ 
+            <input type="radio" name="Profession">
+            <label for="Student">Developer</label><br><br>
+ 
+            <label for="stage">Choose the class if you are (student):</label>
+            <select>
+                 <option>Acadmic</option>
+                 <option>garduation</option>
+                 <option>post graduation</option>
+            </select>
+           </div>
+          
+           <hr>
+           <div class="DOB">
+            <label for="textarea">Any notes:</label><br>
+            <textarea ></textarea>
+           </div>
+           <hr>
+           <button type="submit">Submit</button>
+           <button type="reset">Reset</button>
+       </form>
+    </div>
+</body>
+</html>
